@@ -1,0 +1,17 @@
+/*My Css Sheet*/
+h1{
+    color: cyan;
+}
+main{
+    width: 800px;
+}
+section{
+    border: 2px solid black;
+    width: 50%;
+}
+
+p{
+    color: red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

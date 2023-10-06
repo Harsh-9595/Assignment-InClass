@@ -6,10 +6,50 @@ body{
     font : normal normal normal 12px/1.5 verdana, arial, helvetica;
 }
 h2{
-    color: yellow;
+    color: #fc0;
     font-size: 2rem ;
 }
+ 
+header{
+    background-color: hsla(248, 81%, 47%);
+}
+main{
+    width: 65vw;
+    float: left;
+    background-color: hsl(136, 81%, 55%);
+     height: 60vh;
+}
 
-a{
-    color: (39,41,1,0.8);
+aside{
+    float: right;
+    width: 25vw;
+    background-color: hsl(168, 82% , 34%);
+    height:60vh;
+}
+footer{
+    clear:both;
+    background-color: hsl(145, 51%, 83%);
+}
+.structural{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+#para1{
+    color: rgb(255, 68, 0);
+}
+#para2{
+    color: rgb(4, 38, 161);
+}
+#para3{
+    color: rgb(79, 94, 18);
+}
+p::first-letter{
+    color: rgb(148, 0, 0);
+}
+a:hover{
+    color: #09c;
+}
+footer p{
+    font-size: .75em;
 }
